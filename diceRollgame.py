@@ -12,9 +12,22 @@ def Menu():
     print('------------------------')
     print('3. Exit Program')
     print()
-    Dice_choice = int(input('Enter Here: '))
+    Menu_choice = int(input('Enter Here: '))
 
-    if Dice_choice == '1'
+    if (Menu_choice == 1):
+        Rolldice(1)
+    if (Menu_choice == 2):
+        rolls = int(input('How many rolls?'))
+        Rolldice(rolls)
+    if (Menu_choice == 3):
+
+        exit()
+
+
+
+Menu()
+
+
 
 
 
